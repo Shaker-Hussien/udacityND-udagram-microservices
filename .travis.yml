@@ -18,5 +18,5 @@ before_install:
 
 
 install:
-    - echo `Test TravisCI`
-    #- docker-compose -f course-03/exercises/udacity-c3-deployment/docker/docker-compose-build.yaml build --parallel 
+    #- echo `Test TravisCI`
+    - docker-compose -f udacity-c3-deployment/docker/docker-compose-build.yaml build --parallel 
